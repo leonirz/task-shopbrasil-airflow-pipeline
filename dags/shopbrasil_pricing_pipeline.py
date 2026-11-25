@@ -18,7 +18,7 @@ ECOMMERCE_POOL = "ecommerce_pool"
 
 
 # ---------------------------------------------------------------------------
-# Lifecycle Callbacks (Observability & Simulated Alerting)
+# Callbacks do ciclo de vida (observabilidade e simulação de alertas)
 # ---------------------------------------------------------------------------
 def on_failure_alert_callback(context: dict[str, Any]) -> None:
     """Simulates sending a critical alert when a task fails permanently."""
